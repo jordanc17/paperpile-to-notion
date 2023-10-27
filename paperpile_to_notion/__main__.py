@@ -14,7 +14,7 @@ BIB_PATH = os.environ.get("BIB_PATH", "references.bib")
 CFG_PATH = os.environ.get("CFG_PATH", "data_config.csv")
 
 TITLE_KEY = os.environ.get("TITLE_KEY", "Title")
-PRIMARY_KEY = os.environ.get("PRIMARY_KEY", "Reference ID")
+PRIMARY_KEY = os.environ.get("PRIMARY_KEY", "Title")
 
 
 def main():
