@@ -72,6 +72,8 @@ def get_property(page, prop_name, prop_type):
         content = p["rich_text"][0]["text"]["content"]
     elif prop_type == "number":
         content = p["number"]
+    elif prop_type == "multi-select":
+        content = p["multi_select"][0]["name"]
     elif prop_type == "url":
         content = p["url"]
     else:
