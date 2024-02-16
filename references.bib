@@ -1152,46 +1152,6 @@
   language     = {en}
 }
 
-@ARTICLE{Balci2023-fc,
-  title        = {{\textit{L}}$_{0}${segmentation} enables data-driven concise
-                  representations of diverse epigenomic data},
-  author       = {Balcı, Ali Tuğrul and Chikina, Maria},
-  journaltitle = {bioRxiv},
-  pages        = {2023.01.26.525794},
-  date         = {2023-01-27},
-  abstract     = {AbstractMotivationEpigenetic assays using next-generation
-                  sequencing (NGS) have furthered our understanding of the
-                  functional genomic regions and the mechanisms of gene
-                  regulation. However, a single assay produces billions of data
-                  represented by nucleotide resolution signal tracks. The signal
-                  strength at a given nucleotide is subject to numerous sources
-                  of technical and biological noise and thus conveys limited
-                  information about the underlying biological state. In order to
-                  draw biological conclusions, data is typically summarized into
-                  higher order patterns. Numerous specialized algorithms for
-                  summarizing epigenetic signal have been proposed and include
-                  methods for peak calling or finding differentially methylated
-                  regions. A key unifying principle underlying these approaches
-                  is that they all leverage the strong prior that signal must be
-                  locally consistent.ResultsWe proposeL0segmentation as a
-                  universal framework for extracting locally coherent signals
-                  for diverse epigenetic sources.L0serves to both compress and
-                  smooth the input signal by approximating it as piece-wise
-                  constant. We implement a highly scalableL0segmentation with
-                  additional loss functions designed for NGS epigenetic data
-                  types including Poisson loss for single tracks and binomial
-                  loss for methylation/coverage data. We show that
-                  theL0segmentation approach retains the salient features of the
-                  data over a wide range of compression values and can identify
-                  subtle features, such as transcription end sites, missed by
-                  other analytic approaches.AvailabilityOur approach is
-                  implemented as an R package “l01segmentation” with a C++
-                  backend. Available
-                  athttps://github.com/boooooogey/l01segmentation.},
-  urldate      = {2024-02-15},
-  language     = {en}
-}
-
 @ONLINE{amp_undated-yf,
   title    = {Nomenclature for the description of mutations and other sequence
               variations},
@@ -4643,6 +4603,46 @@
   keywords     = {artificial intelligence; cellular phenotypes; machine
                   learning; neural ODE; predictive biology; single-cell RNA-seq;
                   temporalomics;single-cell methods;on hold},
+  language     = {en}
+}
+
+@ARTICLE{Balci2023-fc,
+  title        = {{\textit{L}}$_{0}${segmentation} enables data-driven concise
+                  representations of diverse epigenomic data},
+  author       = {Balcı, Ali Tuğrul and Chikina, Maria},
+  journaltitle = {bioRxiv},
+  pages        = {2023.01.26.525794},
+  date         = {2023-01-27},
+  abstract     = {AbstractMotivationEpigenetic assays using next-generation
+                  sequencing (NGS) have furthered our understanding of the
+                  functional genomic regions and the mechanisms of gene
+                  regulation. However, a single assay produces billions of data
+                  represented by nucleotide resolution signal tracks. The signal
+                  strength at a given nucleotide is subject to numerous sources
+                  of technical and biological noise and thus conveys limited
+                  information about the underlying biological state. In order to
+                  draw biological conclusions, data is typically summarized into
+                  higher order patterns. Numerous specialized algorithms for
+                  summarizing epigenetic signal have been proposed and include
+                  methods for peak calling or finding differentially methylated
+                  regions. A key unifying principle underlying these approaches
+                  is that they all leverage the strong prior that signal must be
+                  locally consistent.ResultsWe proposeL0segmentation as a
+                  universal framework for extracting locally coherent signals
+                  for diverse epigenetic sources.L0serves to both compress and
+                  smooth the input signal by approximating it as piece-wise
+                  constant. We implement a highly scalableL0segmentation with
+                  additional loss functions designed for NGS epigenetic data
+                  types including Poisson loss for single tracks and binomial
+                  loss for methylation/coverage data. We show that
+                  theL0segmentation approach retains the salient features of the
+                  data over a wide range of compression values and can identify
+                  subtle features, such as transcription end sites, missed by
+                  other analytic approaches.AvailabilityOur approach is
+                  implemented as an R package “l01segmentation” with a C++
+                  backend. Available
+                  athttps://github.com/boooooogey/l01segmentation.},
+  urldate      = {2024-02-15},
   language     = {en}
 }
 
